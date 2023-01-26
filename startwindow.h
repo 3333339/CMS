@@ -1,4 +1,7 @@
 #ifndef STARTWINDOW_H
+#include<QPushButton>
+#include<constnums.h>
+#include<gamewindow.h>
 #define STARTWINDOW_H
 
 #include <QWidget>

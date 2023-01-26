@@ -13,19 +13,6 @@
   <property name="windowTitle">
    <string>startWindow</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>360</y>
-     <width>161</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>开始游戏</string>
-   </property>
-  </widget>
  </widget>
  <resources/>
  <connections/>
