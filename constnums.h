@@ -1,10 +1,10 @@
 #ifndef CONSTNUMS_H
+#define CONSTNUMS_H
 #include<QSize>
 #include<QPoint>
 #include<QString>
 #include<QLabel>
 #include<QDebug>
-#define CONSTNUMS_H
 //这是项目中用的静态变量
 const QSize startWindow_size={1200,900};//开始界面的尺寸
 const QSize gameWindow_size={1200,900};//游戏界面的尺寸

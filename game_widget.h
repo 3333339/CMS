@@ -1,16 +1,23 @@
 #ifndef GAME_WIDGET_H
 #define GAME_WIDGET_H
+#include<startwindow.h>
 
 #include <QWidget>
 
+namespace Ui {
+class game_widget;
+}
+class startWindow;
 class game_widget : public QWidget
 {
     Q_OBJECT
+
 public:
-    explicit game_widget(QWidget *parent = nullptr);
+    game_widget(startWindow * parent);
+    ~game_widget();
 
-signals:
-
+private:
+    Ui::game_widget *ui;
 };
 
 #endif // GAME_WIDGET_H

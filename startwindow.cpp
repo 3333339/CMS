@@ -6,7 +6,7 @@ startWindow::startWindow(QWidget *parent)
     , ui(new Ui::startWindow)
 {
     ui->setupUi(this);
-    gamewindow* game_body=new gamewindow();
+    game_widget* game_body=new game_widget(this);
     this->setWindowTitle(game_name);
     //锁定界面尺寸
     this->setMaximumSize(startWindow_size);
@@ -24,11 +24,11 @@ startWindow::startWindow(QWidget *parent)
         game_body->show();
         this->hide();//隐藏开始界面
     });
-    //实现回退主界面功能.....未完成
-//    connect(game_body.,&QPushButton::clicked,this,[=](){
-//        game_body->hide();
-//        this->show();//隐藏开始界面
-//    });
+    //实现回退主界面功能.....完成
+    connect(this,&startWindow::rollback_signal,this,[=](){
+        this->show();//隐藏开始界面
+        game_body->hide();
+    });
 }
 
 

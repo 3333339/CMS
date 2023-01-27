@@ -1,8 +1,8 @@
 #ifndef STARTWINDOW_H
+#define STARTWINDOW_H
 #include<QPushButton>
 #include<constnums.h>
-#include<gamewindow.h>
-#define STARTWINDOW_H
+#include<game_widget.h>
 
 #include <QWidget>
 
@@ -15,9 +15,10 @@ class startWindow : public QWidget
     Q_OBJECT
 
 public:
-    startWindow(QWidget *parent = nullptr);
+    startWindow(QWidget* parent = nullptr);
     ~startWindow();
-
+Q_SIGNALS:
+    void rollback_signal();
 private:
     Ui::startWindow *ui;
 };
