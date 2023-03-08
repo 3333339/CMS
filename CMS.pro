@@ -12,6 +12,7 @@ SOURCES += \
     field_widget.cpp \
     game_widget.cpp \
     main.cpp \
+    n_class/test.cpp \
     startwindow.cpp
 
 HEADERS += \
@@ -32,3 +33,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     img.qrc
+
+DISTFILES += \
+    img/103017284_p0_master1200.jpg

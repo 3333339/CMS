@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/startwindow">
-        <file alias="test1">C:/Users/abbams/Pictures/103017284_p0_master1200.jpg</file>
+        <file>img/103017284_p0_master1200.jpg</file>
     </qresource>
 </RCC>
