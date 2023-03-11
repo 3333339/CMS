@@ -3,7 +3,7 @@
 #include<QPushButton>
 #include<constnums.h>
 #include<game_widget.h>
-
+#include<QTimer>
 #include <QWidget>
 
 QT_BEGIN_NAMESPACE

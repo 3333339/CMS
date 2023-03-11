@@ -1,7 +1,7 @@
 #ifndef GAME_WIDGET_H
 #define GAME_WIDGET_H
 #include<startwindow.h>
-
+#include<field_widget.h>
 #include <QWidget>
 
 namespace Ui {
@@ -11,7 +11,7 @@ class startWindow;
 class game_widget : public QWidget
 {
     Q_OBJECT
-
+    field_widget *fieldWidget;
 public:
     game_widget(startWindow * parent);
     ~game_widget();

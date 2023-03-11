@@ -5,12 +5,15 @@ game_widget::game_widget(startWindow *parent) :
     ui(new Ui::game_widget)
 {
     ui->setupUi(this);
+    fieldWidget=new field_widget(this);
+
     //实现回退开始界面
     connect(this->ui->rollback_button,&QPushButton::clicked,parent,&startWindow::rollback_signal);
+
     //实现药田界面的弹出
     connect(this->ui->field_button,&QPushButton::clicked,[=](){
         //弹出药田界面
-
+        fieldWidget->show();
     });
 }
 

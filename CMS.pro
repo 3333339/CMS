@@ -12,18 +12,21 @@ SOURCES += \
     field_widget.cpp \
     game_widget.cpp \
     main.cpp \
-    n_class/test.cpp \
+    mall.cpp \
     startwindow.cpp
 
 HEADERS += \
     constnums.h \
     field_widget.h \
     game_widget.h \
+    mall.h \
+    n_class/constnum.h \
     startwindow.h
 
 FORMS += \
     field_widget.ui \
     game_widget.ui \
+    mall.ui \
     startwindow.ui
 
 # Default rules for deployment.
