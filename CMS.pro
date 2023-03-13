@@ -13,6 +13,7 @@ SOURCES += \
     game_widget.cpp \
     main.cpp \
     mall.cpp \
+    mou_forest.cpp \
     startwindow.cpp
 
 HEADERS += \
@@ -20,6 +21,7 @@ HEADERS += \
     field_widget.h \
     game_widget.h \
     mall.h \
+    mou_forest.h \
     n_class/constnum.h \
     startwindow.h
 
@@ -27,6 +29,7 @@ FORMS += \
     field_widget.ui \
     game_widget.ui \
     mall.ui \
+    mou_forest.ui \
     startwindow.ui
 
 # Default rules for deployment.

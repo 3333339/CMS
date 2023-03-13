@@ -51,6 +51,45 @@
     <string>药田</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="mall_button">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>760</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>商城</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mou_forest_button">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>540</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>山林</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sit_table_button">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>750</y>
+     <width>181</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>坐诊台</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

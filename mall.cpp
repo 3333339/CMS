@@ -6,6 +6,8 @@ mall::mall(QWidget *parent) :
     ui(new Ui::mall)
 {
     ui->setupUi(this);
+    this->hide();
+    connect(ui->close_button,&QPushButton::clicked,this,&mall::hide);
 }
 
 mall::~mall()
